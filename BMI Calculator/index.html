@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        
+        <div class="container"><h1 class="heading"> BMI-BMR Calculator</h1>
+        Your Gender:
+       
+        <input type="text" class="input" id="gender"  placeholder="male or female">   
+            
+        Your Age: 
+        <input type="number" class="input" id="age" value="25" placeholder="Enter your age">    
+        Your height(cm):
+        <input type="number" class="input" id="height" value="180" placeholder="Enter your height"> 
+        Your weight(kg):
+        <input type="number" class="input" id="weight" value="100" placeholder="Enter your Weight"> 
+        <button class="btn" id="btn">Calculate</button>
+        Your BMI:
+        <input disabled type="number" class="input" id="bmi-result">
+        Your BMR(kCal):
+        <input disabled type="number" class="input" id="bmr-result">
+        <h4 class="info-text">Weight Condition:<span id="weight-condition"></span></h4>
+
+
+
+
+    </div>
+    <script src="index.js"></script>
+    
+</body>
+</html>
